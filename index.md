@@ -6,12 +6,7 @@ title: Home
 <h1>{{ site.title }}</h1>
 <p>{{ site.description }}</p>
 
-{% assign all_til = "" | split: "" %}
-{% for c in site.collections %}
-  {% unless c[0] == "posts" %}
-    {% assign all_til = all_til | concat: c[1].docs %}
-  {% endunless %}
-{% endfor %}
+{% assign all_til = site.os | concat: site.network | concat: site.database | concat: site.datastructure | concat: site.algorithm %}
 {% assign sorted_til = all_til | sort: "date" | reverse %}
 
 <ul>
