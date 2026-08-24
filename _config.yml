@@ -1,0 +1,65 @@
+title: l-wanderer01의 TIL
+description: 매일 공부한 CS 지식을 컴팩트하게 정리합니다.
+url: "https://l-wanderer01.github.io"
+baseurl: "/TIL"
+
+theme: minima
+
+collections:
+  os:
+    output: true
+    permalink: /:collection/:name/
+  network:
+    output: true
+    permalink: /:collection/:name/
+  database:
+    output: true
+    permalink: /:collection/:name/
+  datastructure:
+    output: true
+    permalink: /:collection/:name/
+  algorithm:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: os
+    values:
+      layout: post
+      category: OS
+  - scope:
+      path: ""
+      type: network
+    values:
+      layout: post
+      category: Network
+  - scope:
+      path: ""
+      type: database
+    values:
+      layout: post
+      category: Database
+  - scope:
+      path: ""
+      type: datastructure
+    values:
+      layout: post
+      category: DataStructure
+  - scope:
+      path: ""
+      type: algorithm
+    values:
+      layout: post
+      category: Algorithm
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - scripts
+  - README.md
+  - TEMPLATE.md
+  - Gemfile
+  - Gemfile.lock
