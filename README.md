@@ -10,6 +10,7 @@
 
 <!-- TIL-INDEX:START -->
 ### Database
+- [RDBMS vs NoSQL](_database/RDBMS_vs_NoSQL.md) (2026-08-26)
 - [DB 트랜잭션 격리수준](_database/DB_트랜잭션_격리수준.md) (2026-08-25)
 - [인덱스란 무엇인가?](_database/인덱스란.md) (2026-08-24)
 
