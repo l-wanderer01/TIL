@@ -9,6 +9,9 @@
 `TEMPLATE.md`를 복사해 작성 후 `main`에 push하면 아래 목록과 사이트가 자동으로 갱신됩니다.
 
 <!-- TIL-INDEX:START -->
+### Network
+- [TCP와 UDP의 차이](_network/TCP_vs_UDP.md) (2026-08-28)
+
 ### Database
 - [RDBMS vs NoSQL](_database/RDBMS_vs_NoSQL.md) (2026-08-26)
 - [DB 트랜잭션 격리수준](_database/DB_트랜잭션_격리수준.md) (2026-08-25)
